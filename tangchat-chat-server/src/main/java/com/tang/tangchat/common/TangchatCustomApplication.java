@@ -10,7 +10,7 @@ import org.springframework.boot.web.servlet.ServletComponentScan;
  * @date 2021/05/27
  */
 @SpringBootApplication(scanBasePackages = {"com.tang.tangchat"})
-//@MapperScan({"com.tang.tangchat.common.**.mapper"})
+@MapperScan({"com.tang.tangchat.common.**.mapper"})
 //@ServletComponentScan
 public class TangchatCustomApplication {
     public static void main(String[] args) {
